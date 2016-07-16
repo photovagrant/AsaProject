@@ -40,9 +40,9 @@ public class MainActivity extends AppCompatActivity {
         resultlist = (RecyclerView) findViewById(R.id.recycleview);
          ctx=this;
 
-        results.add(new result("null0"));
-        results.add(new result("null1"));
-        results.add(new result("null2"));
+        results.add(new result("Note1"));
+        results.add(new result("Note2"));
+        results.add(new result("Note3"));
 
         mResultclass=new resultclass(ctx,results);
 
